@@ -58,6 +58,12 @@ body {
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+main, footer, .logo {
+    border: 1px solid red;
+    width: 850px;
+    margin: auto;
+}
+
 h1 {
     color: #4C4C4C;
     font-weight: 400;
@@ -88,4 +94,27 @@ button {
     color: #ffffff;
     font-size: 1.125em;
     font-weight: normal;
+}
+
+/* layout */
+
+.right {
+    float: right;
+    margin-top: 10px;
+}
+
+.signin {
+    margin-right: 35px;
+}
+
+.question {
+    margin-right: 10px;
+}
+
+.logo {
+    clear: right;
+}
+
+.center-align {
+    text-align: center;
 }
