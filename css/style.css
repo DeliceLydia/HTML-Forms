@@ -59,14 +59,17 @@ body {
 }
 
 main, footer, .logo {
-    /* border: 1px solid red; */
-    width: 850px;
+    max-width: 850px;
     margin: auto;
 }
-main{
-    margin: auto;
-    background-color: #fff;
-    width: 30%;
+
+main {
+    width: 380px;
+    border: 1px solid #c7c7c7;
+}
+
+section {
+    background-color: #ffffff;
 }
 
 h1 {
@@ -123,3 +126,5 @@ button {
 .center-align {
     text-align: center;
 }
+
+/* template */
