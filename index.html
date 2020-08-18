@@ -29,16 +29,21 @@
             <p><a href="#">Learn more</a></p>
         </div>
 
-        <form action="">
-            </p>
-            <label for="">Email address</label>
-            <input type="email" name="email">
-            <label for="">Phone(recommended)</label>
-            <input type="tel" name="phone">
-            <p>Standard call, messagingor data rates may apply</p>
-            <label for="">Password</label>
-            <input type="password" name="password">
-            <button>Create Account</button>
+        <form action="/" method="post">
+            <fieldset>
+                <label for="email">Email address</label>
+                <input type="email" name="email" id="email">
+            </fieldset>
+            <fieldset>
+                <label for="number">Phone (recommended)</label>
+                <input type="tel" name="phone number" id="number">
+                <p>Standard call, messaging or data rates may apply.</p>
+            </fieldset>
+            <fieldset>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+            </fieldset>
+            <button name="submit">Create Account</button>
         </form>
 
         <div>
@@ -55,7 +60,7 @@
             <li><a href="#">Security</a></li>
         </ul>
         <p>&#169; 2020 intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
-        registered trademarks of Intuit Inc.</p>
+            registered trademarks of Intuit Inc.</p>
         <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
     </footer>
 </body>
