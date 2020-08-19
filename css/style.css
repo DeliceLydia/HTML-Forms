@@ -197,8 +197,7 @@ button {
 
 .top-header {
   display: grid;
-  grid-template-columns: 2fr 1.3fr;
-  width: 360px;
+  grid-template-columns: 2fr 1.1fr;
   float: right;
   margin: 10px 30px 40px 0;
 }
@@ -243,8 +242,7 @@ footer {
 
 /* template */
 
-.signin,
-button {
+.signin button {
 	background-color: rgb(0, 119, 197);
 	border-radius: 4px;
 	font-size: 13.5px;
