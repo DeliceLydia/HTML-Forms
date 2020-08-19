@@ -171,7 +171,6 @@ p {
 }
 
 h1 {
-  font-weight: 400;
   line-height: 1.1;
   font-size: 24px;
 }
@@ -184,6 +183,14 @@ a {
 a {
   color: #0077c5;
   text-decoration: none;
+}
+
+h1,
+p,
+label,
+a,
+button {
+	font-weight: 400;
 }
 
 /* layout */
@@ -211,7 +218,8 @@ a {
 
 label {
   display: block;
-  padding-bottom: 6px;
+	padding-bottom: 6px;
+	line-height: 25px;
 }
 
 section,
@@ -241,7 +249,6 @@ button {
 	border-radius: 4px;
 	font-size: 13.5px;
 	color: #fff;
-	font-weight: 400;
 	height: 34px;
 	padding: 0 20px;
 }
@@ -249,17 +256,32 @@ button {
 .question p,
 a {
 	font-size: 12px;
-	font-weight: 400;
 	line-height: 18px;
 }
 
-section p{
+label,
+section p {
 	font-size: 14px;
+}
+
+section p {
 	font-weight: 300;
 	line-height: 16.8px;
 }
 
+fieldset p {
+	font-size: 10px;
+	line-height: 15px;
+	padding: 5px 0;
+}
 
+.agreement {
+	line-height: 1.5px;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: normal;
+	text-align: center;
+}
 
 footer ul {
   display: flex;
