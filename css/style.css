@@ -167,6 +167,7 @@ main {
 
 section {
   background-color: #fff;
+  padding: 30px;
 }
 
 h1,
@@ -187,6 +188,8 @@ a {
 a {
   color: #0077c5;
   text-decoration: none;
+  font-size: 12px;
+  line-height: 18px;
 }
 
 h1,
@@ -195,6 +198,11 @@ label,
 a,
 button {
   font-weight: 400;
+}
+
+li a,
+p {
+  color: #505050;
 }
 
 button {
@@ -232,10 +240,6 @@ label {
   line-height: 25px;
 }
 
-section {
-  padding: 30px;
-}
-
 .center-align,
 .center-align h1 {
   padding-bottom: 20px;
@@ -257,10 +261,32 @@ footer {
 
 /* template */
 
+section p {
+  font-weight: 300;
+  line-height: 16.8px;
+}
+
 button img {
   width: 14px;
   vertical-align: text-bottom;
   margin: 2px 4px 0 0;
+}
+
+form button {
+  border: none;
+  width: 100%;
+  height: 44px;
+}
+
+label,
+section p {
+  font-size: 14px;
+}
+
+fieldset p {
+  font-size: 10px;
+  line-height: 15px;
+  padding: 5px 0;
 }
 
 .signin button {
@@ -269,31 +295,13 @@ button img {
   padding: 0 20px;
 }
 
-footer p, 
-.question p,
-a {
+footer p,
+.question p {
   font-size: 12px;
 }
 
-.question p,
-a {
+.question p {
   line-height: 18px;
-}
-
-label,
-section p {
-  font-size: 14px;
-}
-
-section p {
-  font-weight: 300;
-  line-height: 16.8px;
-}
-
-fieldset p {
-  font-size: 10px;
-  line-height: 15px;
-  padding: 5px 0;
 }
 
 .agreement {
@@ -323,11 +331,6 @@ li {
   padding-right: 10px;
 }
 
-li a,
-p {
-  color: #505050;
-}
-
 li a:hover {
   text-decoration: underline;
 }
@@ -343,12 +346,6 @@ input {
   font-size: 1.2em;
   border-radius: 3px;
   line-height: 1.3em;
-}
-
-form button {
-  border: none;
-  width: 100%;
-  height: 44px;
 }
 
 .form-button span {
