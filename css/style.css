@@ -9,122 +9,219 @@
 /*
 * reset
 *
-* http://meyerweb.com/eric/tools/css/reset/ 
+* http://meyerweb.com/eric/tools/css/reset/
 * v2.0 | 20110126
 * License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 
 body {
-	line-height: 1;
+  line-height: 1;
+  background-color: #eceef1;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
 
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
 
-blockquote:before, blockquote:after, q:before, q:after {
-	content: '';
-	content: none;
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* base */
 
-body {
-    background-color: #ECEEF1;
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-main, footer, .logo {
-    max-width: 850px;
-    margin: auto;
+main,
+footer,
+.logo {
+  max-width: 850px;
+  margin: auto;
 }
 
 main {
-    width: 380px;
-    border: 1px solid #c7c7c7;
+  width: 380px;
+  border: 1px solid #c7c7c7;
 }
 
 section {
-    background-color: #ffffff;
+  background-color: #fff;
+}
+
+h1,
+p {
+  color: #4c4c4c;
 }
 
 h1 {
-    color: #4C4C4C;
-    font-weight: 400;
-    line-height: 1.1;
-    font-size: 24px;
+  font-weight: 400;
+  line-height: 1.1;
+  font-size: 24px;
 }
 
 p {
-    color: #4C4C4C;
-    font-size: 14px;
+  font-size: 14px;
 }
 
-button, a {
-    cursor: pointer;
+button,
+a {
+  cursor: pointer;
 }
 
 a {
-    color: #0077C5;
-    text-decoration: none;
+  color: #0077c5;
+  text-decoration: none;
 }
 
 button {
-    height: 34px;
-    background: #0077C5;
-    padding: 0 20px;
-    border-radius: 4px;
-    border: 1px solid #4c4c4c;
-    color: #ffffff;
-    font-size: 1.125em;
-    font-weight: normal;
+  height: 34px;
+  background: #0077c5;
+  padding: 0 20px;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: normal;
 }
 
 /* layout */
 
 .top-header {
-    display: grid;
-    grid-template-columns: 2fr 1.3fr;
-    width: 360px;
-    float: right;
-    margin: 10px 30px 0 0;
+  display: grid;
+  grid-template-columns: 2fr 1.3fr;
+  width: 360px;
+  float: right;
+  margin: 10px 30px 0 0;
 }
 
 .right {
-    text-align: right;
-    margin: auto 0;
+  text-align: right;
+  margin: auto 0;
 }
 
 .logo {
-    clear: right;
+  clear: right;
 }
 
 .center-align {
-    text-align: center;
+  text-align: center;
 }
 
 /* template */
