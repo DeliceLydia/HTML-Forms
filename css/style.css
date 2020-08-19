@@ -59,9 +59,14 @@ body {
 }
 
 main, footer, .logo {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 850px;
     margin: auto;
+}
+main{
+    margin: auto;
+    background-color: #fff;
+    width: 30%;
 }
 
 h1 {
