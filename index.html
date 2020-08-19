@@ -39,16 +39,17 @@
             <form action="/" method="post">
                 <fieldset>
                     <label for="email">Email address</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" required>
                 </fieldset>
                 <fieldset>
                     <label for="number">Phone (recommended)</label>
                     <input type="tel" name="phone number" id="number">
                     <p>Standard call, messaging or data rates may apply.</p>
                 </fieldset>
-                <fieldset>
+                <fieldset id="input-password">
                     <label for="password">Password</label>
-                    <input type="password" name="password" id="password">
+                    <img src="./images/lock_open.png" alt="padlock">
+                    <input type="password" name="password" id="password" required>
                 </fieldset>
                 <button class="form-button" type="button" name="submit">
                     <img src="./images/lock.png" alt="sign in"> 

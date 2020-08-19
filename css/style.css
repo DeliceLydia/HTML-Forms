@@ -337,8 +337,7 @@ input {
   width: 320px;
   border: 1px solid #C1C5C8;
   min-width: 160px;
-  padding-left: 8px;
-  padding-right: 6px;
+  padding: 0 15px 0 8px;
   color: #000000;
   outline: none;
   font-size: 1.2em;
@@ -355,4 +354,17 @@ form button {
 .form-button span {
   font-size: 15.75px;
   line-height: 22.5px;
+}
+
+#input-password {
+  position: relative;
+}
+
+#input-password img {
+  position: absolute;
+  width: 25px;
+  height: auto;
+  left: 286px;
+  top: 35px;
+  opacity: 0.5;
 }
