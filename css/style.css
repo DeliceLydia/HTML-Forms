@@ -155,7 +155,7 @@ table {
 
 main,
 footer,
-.logo {
+.clear-right {
   max-width: 850px;
   margin: auto;
 }
@@ -181,7 +181,10 @@ h1 {
 }
 
 button,
-a {
+a,
+.main-logo,
+.center-vertical,
+.privacy-settings {
   cursor: pointer;
 }
 
@@ -208,8 +211,12 @@ p {
 button {
   background-color: #0077c5;
   border-radius: 4px;
-  color: #fff;
   border: 1px solid #4c4c4c;
+}
+
+button,
+.privacy-settings {
+  color: #fff;
 }
 
 /* layout */
@@ -226,12 +233,16 @@ button {
   margin: auto 0;
 }
 
-.logo {
+.clear-right {
   clear: right;
 }
 
 .center-align {
   text-align: center;
+}
+
+.main-logo {
+  width: 130px;
 }
 
 label {
@@ -256,6 +267,10 @@ form button {
 
 footer {
   padding: 25px 0;
+}
+
+footer,
+.privacy-settings {
   line-height: 1.5;
 }
 
@@ -279,7 +294,8 @@ form button {
 }
 
 label,
-section p {
+section p,
+.privacy-settings {
   font-size: 14px;
 }
 
@@ -289,10 +305,25 @@ fieldset p {
   padding: 5px 0;
 }
 
+.multiple-logos,
+.agreement {
+  color: #757575;
+}
+
+.multiple-logos span {
+  margin-right: 5px;
+  font-size: 20px;
+  /* font-stretch: expanded; */
+}
+
 .signin button {
   font-size: 13.5px;
   height: 34px;
   padding: 0 20px;
+}
+
+.center-vertical {
+  vertical-align: middle;
 }
 
 footer p,
@@ -308,9 +339,12 @@ footer p,
   line-height: 1.5px;
   font-size: 12px;
   font-style: italic;
-  font-weight: normal;
   text-align: center;
-  color: #757575;
+}
+
+.agreement,
+.privacy-settings {
+  font-weight: normal;
 }
 
 .privacy p {
@@ -344,8 +378,12 @@ input {
   color: #000;
   outline: none;
   font-size: 1.2em;
-  border-radius: 3px;
   line-height: 1.3em;
+}
+
+input,
+.privacy-settings {
+  border-radius: 3px;
 }
 
 .form-button span {
@@ -364,4 +402,12 @@ input {
   left: 286px;
   top: 35px;
   opacity: 0.5;
+}
+
+.privacy-settings {
+  position: fixed;
+  bottom: 0;
+  right: 5%;
+  padding: 10px 12px;
+  background-color: #6B6C72;
 }
