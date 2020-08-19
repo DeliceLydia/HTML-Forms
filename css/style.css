@@ -106,17 +106,17 @@ button {
 
 /* layout */
 
-.right {
+.top-header {
+    display: grid;
+    grid-template-columns: 2fr 1.3fr;
+    width: 360px;
     float: right;
-    margin-top: 10px;
+    margin: 10px 30px 0 0;
 }
 
-.signin {
-    margin-right: 35px;
-}
-
-.question {
-    margin-right: 10px;
+.right {
+    text-align: right;
+    margin: auto 0;
 }
 
 .logo {

@@ -11,15 +11,17 @@
 <body>
     <!-- Header -->
     <header>
-        <div>
-            <button class="right signin"><img src="./images/lock.png"> Sign In</button>
+        <div class="top-header">
             <div class="right question">
                 <p>Already have an intuit account?</p>
                 <p><a href="#">I forgot my User ID and Password</a></p>
             </div>
+            <div class="right signin">
+                <button><img src="./images/lock.png" alt="sign in"> Sign In</button>
+            </div>
         </div>
         <div class="logo center-align">
-            <img src="./images/logo.png">
+            <img src="./images/logo.png" alt="intuit logo">
         </div>
     </header>
     <!-- Main -->
@@ -33,16 +35,16 @@
 
             <form action="/" method="post">
                 <fieldset>
-                    <label for="email">Email address</label><br>
+                    <label for="email">Email address</label>
                     <input type="email" name="email" id="email">
                 </fieldset>
                 <fieldset>
-                    <label for="number">Phone (recommended)</label><br>
+                    <label for="number">Phone (recommended)</label>
                     <input type="tel" name="phone number" id="number">
                     <p>Standard call, messaging or data rates may apply.</p>
                 </fieldset>
                 <fieldset>
-                    <label for="password">Password</label><br>
+                    <label for="password">Password</label>
                     <input type="password" name="password" id="password">
                 </fieldset>
                 <button name="submit">Create Account</button>
