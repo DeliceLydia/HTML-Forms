@@ -19,6 +19,10 @@
 - HTML
 - CSS
 
+## Dependencies
+
+> Refer to [Linters Config](https://github.com/eananti/linters-config/tree/master/html-css) for project setup guide.
+
 ## Live Demo
 
 [Live Demo Link](https://delicelydia.github.io/HTML-Forms/)
