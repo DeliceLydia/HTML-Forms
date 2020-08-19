@@ -245,7 +245,12 @@ button {
 }
 
 footer {
-    padding: 25px 0;
+  padding: 25px 0;
 }
 
 /* template */
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}
