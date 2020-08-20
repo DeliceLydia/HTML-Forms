@@ -1,0 +1,418 @@
+/* reset  */
+
+/* base */
+
+/* layout */
+
+/* template */
+
+/*
+* reset
+*
+* http://meyerweb.com/eric/tools/css/reset/
+* v2.0 | 20110126
+* License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  background-color: #eceef1;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* base */
+
+* {
+  box-sizing: border-box;
+}
+
+main,
+footer,
+.clear-right {
+  max-width: 850px;
+  margin: auto;
+}
+
+main {
+  width: 380px;
+  border: 1px solid #c7c7c7;
+}
+
+section {
+  background-color: #fff;
+  padding: 30px;
+}
+
+h1,
+p {
+  color: #4c4c4c;
+}
+
+h1 {
+  line-height: 1.1;
+  font-size: 24px;
+}
+
+button,
+a,
+.main-logo,
+.center-vertical,
+.privacy-settings {
+  cursor: pointer;
+}
+
+a {
+  color: #0077c5;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+h1,
+p,
+label,
+a,
+button {
+  font-weight: 400;
+}
+
+li a,
+p {
+  color: #505050;
+}
+
+button {
+  background-color: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+}
+
+button,
+.privacy-settings {
+  color: #fff;
+}
+
+/* layout */
+
+.top-header {
+  display: grid;
+  grid-template-columns: 2fr 1.38fr;
+  float: right;
+  margin: 10px 30px 40px 0;
+}
+
+.right {
+  text-align: right;
+  margin: auto 0;
+}
+
+.clear-right {
+  clear: right;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.main-logo {
+  width: 130px;
+}
+
+label {
+  display: block;
+  padding-bottom: 6px;
+  line-height: 25px;
+}
+
+.center-align,
+.center-align h1 {
+  padding-bottom: 20px;
+}
+
+fieldset,
+form button {
+  margin-bottom: 30px;
+}
+
+.privacy {
+  padding-top: 20px;
+}
+
+footer {
+  padding: 25px 0;
+}
+
+footer,
+.privacy-settings {
+  line-height: 1.5;
+}
+
+/* template */
+
+section p {
+  font-weight: 300;
+  line-height: 16.8px;
+}
+
+button img {
+  width: 14px;
+  vertical-align: text-bottom;
+  margin: 2px 4px 0 0;
+}
+
+form button {
+  border: none;
+  width: 100%;
+  height: 44px;
+}
+
+label,
+section p,
+.privacy-settings {
+  font-size: 14px;
+}
+
+fieldset p {
+  font-size: 10px;
+  line-height: 15px;
+  padding: 5px 0;
+}
+
+.multiple-logos,
+.agreement {
+  color: #757575;
+}
+
+.multiple-logos span {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.signin button {
+  font-size: 13.5px;
+  height: 34px;
+  padding: 0 20px;
+}
+
+.center-vertical {
+  vertical-align: middle;
+}
+
+footer p,
+.question p {
+  font-size: 12px;
+}
+
+.question p {
+  line-height: 18px;
+}
+
+.agreement {
+  line-height: 1.5px;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+}
+
+.agreement,
+.privacy-settings {
+  font-weight: normal;
+}
+
+.privacy p {
+  color: #8d9096;
+  font-size: 10px;
+}
+
+.privacy a {
+  font-size: 10px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  padding-right: 10px;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+input {
+  height: 34px;
+  width: 320px;
+  border: 1px solid #c1c5c8;
+  min-width: 160px;
+  padding: 0 15px 0 8px;
+  color: #000;
+  outline: none;
+  font-size: 1.2em;
+  line-height: 1.3em;
+}
+
+input,
+.privacy-settings {
+  border-radius: 3px;
+}
+
+input:focus {
+  border: 1px solid #52abec;
+  outline: 0 none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+.form-button span {
+  font-size: 15.75px;
+  line-height: 22.5px;
+}
+
+#input-password {
+  position: relative;
+}
+
+#input-password img {
+  position: absolute;
+  width: 25px;
+  height: auto;
+  left: 286px;
+  top: 35px;
+  opacity: 0.5;
+}
+
+.privacy-settings {
+  position: fixed;
+  bottom: 0;
+  right: 5%;
+  padding: 10px 12px;
+  background-color: #6b6c72;
+}
