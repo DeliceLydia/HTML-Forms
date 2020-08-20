@@ -194,11 +194,11 @@ p,
 label,
 a,
 button {
-	font-weight: 400;
+  font-weight: 400;
 }
 
 button {
-  background-color: #0077C5;
+  background-color: #0077c5;
   border-radius: 4px;
   color: #fff;
   border: 1px solid #4c4c4c;
@@ -228,8 +228,8 @@ button {
 
 label {
   display: block;
-	padding-bottom: 6px;
-	line-height: 25px;
+  padding-bottom: 6px;
+  line-height: 25px;
 }
 
 section {
@@ -264,43 +264,43 @@ button img {
 }
 
 .signin button {
-	font-size: 13.5px;
-	height: 34px;
-	padding: 0 20px;
+  font-size: 13.5px;
+  height: 34px;
+  padding: 0 20px;
 }
 
+footer p, 
 .question p,
-a,
-footer p {
-	font-size: 12px;
+a {
+  font-size: 12px;
 }
 
 .question p,
 a {
-	line-height: 18px;
+  line-height: 18px;
 }
 
 label,
 section p {
-	font-size: 14px;
+  font-size: 14px;
 }
 
 section p {
-	font-weight: 300;
-	line-height: 16.8px;
+  font-weight: 300;
+  line-height: 16.8px;
 }
 
 fieldset p {
   font-size: 10px;
-	line-height: 15px;
-	padding: 5px 0;
+  line-height: 15px;
+  padding: 5px 0;
 }
 
 .agreement {
   line-height: 1.5px;
-	font-size: 12px;
-	font-style: italic;
-	font-weight: normal;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: normal;
   text-align: center;
   color: #757575;
 }
@@ -335,10 +335,10 @@ li a:hover {
 input {
   height: 34px;
   width: 320px;
-  border: 1px solid #C1C5C8;
+  border: 1px solid #c1c5c8;
   min-width: 160px;
   padding: 0 15px 0 8px;
-  color: #000000;
+  color: #000;
   outline: none;
   font-size: 1.2em;
   border-radius: 3px;
